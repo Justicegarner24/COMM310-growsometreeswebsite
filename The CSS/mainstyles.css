@@ -1,0 +1,213 @@
+/*
+Theme Name: Mini Divi
+Version: 1.0
+Description: A child theme of SpecialDivi
+Author: justicegarner
+Template: SpecialDivi
+*/
+
+@import url("../SpecialDivi/style.css");
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+/* Header Settings */
+#main-header {
+  background: #454232;
+  padding: 5px;
+}
+
+#top-menu a {
+  color: white;
+  font-family: "Single Day", cursive;
+  font-size: 1.3em;
+}
+
+#logo {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+
+/* Top Slider Settings*/
+#aboutus .et_pb_slide_description{
+  padding-bottom: 60px;
+  padding-top: 70px;
+}
+#aboutus h2 {
+  font-family: "Single Day", cursive;
+  text-align: left;
+  font-size: 7em;
+}
+#aboutus h3 {
+  text-align: left;
+  font-size: 3em;
+  line-height: 1;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+#aboutus .et_pb_button {
+  border: #90A740 solid 3px;
+}
+
+.et_pb_more_button {
+  background: white;
+  color: #90A740;
+  border: #90A740 solid 4px;
+}
+
+.et_pb_more_button:hover {
+  background: white;
+  color: #90A740;
+  border: #90A740 solid 4px;
+}
+
+#aboutus .et_pb_button_wrapper {
+  text-align: right;
+}
+/* Section 2 Settings */
+
+#howcanyouhelp {
+  background-color: #5E6F3D !important;
+  padding: 10px;
+}
+
+h2, h3 {
+  font-family: "Single Day", cursive;
+  text-align:center;
+  font-size: 2.5em;
+  color: black;
+  font-weight: 900;
+}
+
+#roundimgs img{
+  border-radius: 50%;
+  padding-inline: 25px;
+}
+
+#roundimgs {
+  background: #5E6F3D;
+  padding-top: 0px;
+}
+
+#roundimgs h2, h3 {
+  color: black !important;
+  font-size: 2.5em;
+
+}
+#roundimgs h3 {
+  line-height: 1.2;
+}
+/* Toggle Boxes Section */
+
+#togglesection {
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+
+#togglesection h1 {
+  font-family: "Single Day", cursive;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3em;
+}
+#togglesection h2 {
+  font-weight: bold;
+  background-color: #BC8A4B;
+  padding: 50px;
+  font-size: 3em;
+  min-height: 200px;
+}
+/* Second Slider Settings */
+
+#secondslider h1 {
+  font-family: "Single Day", cursive;
+  font-size: 4.5em;
+  font-weight: bold;
+  text-shadow: 4px 4px 4px black;
+}
+#secondslider h2 {
+  text-shadow: 4px 4px 4px black;
+  font-size: 2em;
+}
+#secondslider .et_pb_slide_description {
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+/* Footer Settings*/
+
+#footer-bottom {
+  background: #7F673F;
+}
+
+#footer-info {
+  font-family: "Single Day", cursive;
+  color: white;
+  text-align: center !important;
+  float: none;
+  font-size: 1.2em;
+  padding: 20px;
+  font-weight: bold;
+}
+
+/* Call To Action Button Settings */
+
+#calltoaction .et_pb_button_module_wrapper {
+  text-align: center;
+}
+#calltoaction {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#calltoaction h2 {
+  font-weight: bold;
+}
+.et_pb_button {
+  background: white;
+  color: #90A740;
+  border: #90A740 solid 4px;
+}
+.et_pb_button:hover {
+  background: white !important;
+  color: #90A740;
+  border: #90A740 solid 4px !important;
+}
+/* Mobile Menu Settings */
+
+.mobile_menu_bar::before {
+  color: white;
+}
+
+/* Cool Button Settings */
+
+.et_pb_button {
+  font-family: "Single Day", cursive;
+  font-weight: bold;
+  font-size: 1.7em;
+ 
+}
+
+.et_pb_button:hover {
+  border: #BC8A4B solid 4px !important;
+  font-weight: bold;
+  color: #7F673F;
+}
+
+@media only screen and (min-width: 393px) {
+  #secondslider h1 {
+    font-size: 2em;
+    line-height: 1.1;
+  }
+  #secondslider h2 {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  #et_mobile_nav_menu .et_mobile_menu {
+    background: #454232;
+    border-top: #454232;
+  }
+  #mobile_menu a, a:hover {
+    font-family: "Single Day", cursive;
+    color: white;
+  }
+}
